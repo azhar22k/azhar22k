@@ -5,7 +5,7 @@
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
+- 🔭 I’m currently working on AWS, Terraform
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
@@ -14,3 +14,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+I'm a polyglot, ambivert and loves Sci-Fi
+
+- 💬 Ask me about AWS, Terraform, Kubernetes, Superset
+
+[![Azhar's github stats](https://github-readme-stats.vercel.app/api?username=azhar22k&show_icons=true&theme=gruvbox&count_private=true)](https://github.com/azhar22k)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=azhar22k&layout=compact)](https://github.com/azhar22k)
