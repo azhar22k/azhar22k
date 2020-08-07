@@ -18,6 +18,6 @@ I'm a polyglot, ambivert and loves Sci-Fi
 
 - 💬 Ask me about AWS, Terraform, Kubernetes, Superset
 
-[![Azhar's github stats](https://github-readme-stats-git-master.azhar22k.vercel.app/api?username=azhar22k&show_icons=true&theme=gruvbox&count_private=true)](https://github.com/azhar22k)
+[![Azhar's github stats](https://github-readme-stats.vercel.app/api?username=azhar22k&show_icons=true&theme=gruvbox&count_private=true)](https://github.com/azhar22k)
 
-[![Top Langs](https://github-readme-stats-git-master.azhar22k.vercel.app/api/top-langs/?username=azhar22k&layout=compact)](https://github.com/azhar22k)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=azhar22k&layout=compact)](https://github.com/azhar22k)
