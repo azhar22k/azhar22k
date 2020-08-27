@@ -40,7 +40,6 @@ Public Contributions             |  Top Languages
 ![](https://github-readme-stats.vercel.app/api?username=azhar22k&show_icons=true&count_private=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)  |  ![](https://github-readme-stats.vercel.app/api/top-langs/?username=azhar22k&layout=compact&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&hide=html,css)
 <hr>
 
-![]()
 <a href="https://www.youracclaim.com/badges/35d0e149-1a64-454b-b800-ce45435dc418/public_url" target="_blank">
   <img align="left" alt="Solutions Architect Associate " src="https://github.com/azhar22k/azhar22k/blob/master/aws-certified-solutions-architect-associate.png?raw=true" />
 </a>
@@ -51,4 +50,9 @@ Public Contributions             |  Top Languages
 <hr>
 I'm a polyglot, ambivert and loves Sci-Fi
 
-- 💬 Ask me about AWS, Terraform, Kubernetes, Superset
+- 💬 Ask me about
+<br>
+<img align="left" alt="AWS" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/amazonaws.svg" />
+<img align="left" alt="Teraform" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/terraform.svg" />
+<img align="left" alt="Kubernetes" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/kubernetes.svg" />
+<img align="left" alt="Superset" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/superset.svg" />
