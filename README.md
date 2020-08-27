@@ -32,10 +32,10 @@ Contributions             |  Top Languages
 ![](https://github-readme-stats.vercel.app/api?username=azhar22k&show_icons=true&count_private=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)  |  ![](https://github-readme-stats.vercel.app/api/top-langs/?username=azhar22k&layout=compact&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 <hr>
 <a href="https://www.youracclaim.com/badges/35d0e149-1a64-454b-b800-ce45435dc418/public_url" target="_blank">
-  <img align="left" alt="Solutions Architect Associate " src="aws-certified-solutions-architect-associate%20(2).png" />
+  <img align="left" alt="Solutions Architect Associate " src="aws-certified-solutions-architect-associate (2).png" />
 </a>
 <a href="https://www.youracclaim.com/badges/4bcbaa97-1fe9-432b-bb1f-378ff7e338a6/public_url" target="_blank">
-  <img alt="Developer Associate" src="aws-certified-developer-associate%20(2).png" />
+  <img alt="Developer Associate" src="aws-certified-developer-associate (2).png" />
 </a>
 
 <hr>
