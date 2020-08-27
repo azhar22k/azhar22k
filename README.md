@@ -34,7 +34,7 @@ Contributions             |  Top Languages
 
 ![]()
 <a href="https://www.youracclaim.com/badges/35d0e149-1a64-454b-b800-ce45435dc418/public_url" target="_blank">
-  <img align="left" alt="Solutions Architect Associate " src="https://github.com/azhar22k/azhar22k/blob/master/aws-certified-solutions-architect-assotiate.png?raw=true" />
+  <img align="left" alt="Solutions Architect Associate " src="https://github.com/azhar22k/azhar22k/blob/master/aws-certified-solutions-architect-associate.png?raw=true" />
 </a>
 <a href="https://www.youracclaim.com/badges/4bcbaa97-1fe9-432b-bb1f-378ff7e338a6/public_url" target="_blank">
   <img alt="Developer Associate" src="https://github.com/azhar22k/azhar22k/blob/master/aws-certified-developer-associate.png?raw=true" />
