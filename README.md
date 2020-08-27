@@ -27,7 +27,7 @@ Here are some ideas to get you started:
 <br>
 <hr>
 
-Contributions             |  Top Languages
+Public Contributions             |  Top Languages
 :-------------------------:|:-------------------------:
 ![](https://github-readme-stats.vercel.app/api?username=azhar22k&show_icons=true&count_private=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)  |  ![](https://github-readme-stats.vercel.app/api/top-langs/?username=azhar22k&layout=compact&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 <hr>
