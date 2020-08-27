@@ -50,9 +50,4 @@ Public Contributions             |  Top Languages
 <hr>
 I'm a polyglot, ambivert and loves Sci-Fi
 
-- 💬 Ask me about
-<br>
-<img align="left" alt="AWS" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/amazonaws.svg" />
-<img align="left" alt="Teraform" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/terraform.svg" />
-<img align="left" alt="Kubernetes" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/kubernetes.svg" />
-<img align="left" alt="Superset" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/superset.svg" />
+- 💬 Ask me about AWS, Terraform, Kubernetes, Superset
