@@ -1,4 +1,4 @@
-### Hi there 👋, I'm Azhar Khan
+# Hola 👋, I'm Azhar
 
 <!--
 **azhar22k/azhar22k** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -20,16 +20,24 @@ Here are some ideas to get you started:
 <a href="https://twitter.com/azhar22k/" target="_blank">
   <img align="left" alt="Azhar's Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
 </a>
-<a href="https://stackoverflow.com/users/6426237/azhar22kb" target="_blank">
+<a href="https://stackoverflow.com/users/6426237/azhar22k" target="_blank">
   <img align="left" alt="Azhar's stackoverflow" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/stackoverflow.svg" />
 </a>
-
+<a href="https://dev.to/azhar22k" target="_blank">
+  <img align="left" alt="Azhar's Dev.to" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/dev-dot-to.svg" />
+</a>
+<a href="https://medium.com/@azhar22k" target="_blank">
+  <img align="left" alt="Azhar's medium" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/medium.svg" />
+</a>
+<a href="https://azhar22k.github.io" target="_blank">
+  <img align="left" alt="Azhar's github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/blogger.svg" />
+</a>
 <br>
 <hr>
 
 Public Contributions             |  Top Languages
 :-------------------------:|:-------------------------:
-![](https://github-readme-stats.vercel.app/api?username=azhar22k&show_icons=true&count_private=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)  |  ![](https://github-readme-stats.vercel.app/api/top-langs/?username=azhar22k&layout=compact&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![](https://github-readme-stats.vercel.app/api?username=azhar22k&show_icons=true&count_private=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)  |  ![](https://github-readme-stats.vercel.app/api/top-langs/?username=azhar22k&layout=compact&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&hide=html,css)
 <hr>
 
 ![]()
