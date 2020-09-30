@@ -53,7 +53,6 @@ I'm a polyglot, ambivert and loves Sci-Fi
 - 💬 Ask me about AWS, Terraform, Kubernetes, Superset
 <hr>
 <details>
-  <summary>Click to view graphs</summary> 
+  <summary>Click to view wakatime language stats</summary> 
 <img align="left" src="https://wakatime.com/share/@f33c1581-5370-46dd-b920-21d1f611fe0d/4a37a4fa-4dfe-404b-8547-711d4fcf6722.svg" />
-<img align="left" src="https://wakatime.com/share/@f33c1581-5370-46dd-b920-21d1f611fe0d/fcb9277b-486f-4475-a099-a35dfa73a074.svg" />
 </details>
