@@ -46,14 +46,17 @@ Public Contributions             |  Top Languages
 <a href="https://stackoverflow.com/users/6426237/azhar22k" target="_blank">
   <img align="left" alt="stackoverflow Profile" src="https://github-readme-stackoverflow.vercel.app/?userID=6426237" >
 </a>
-<a href="https://www.youracclaim.com/badges/35d0e149-1a64-454b-b800-ce45435dc418/public_url" target="_blank">
-  <img align="left" alt="Solutions Architect Associate" width="200px" src="https://github.com/azhar22k/azhar22k/blob/master/aws-certified-solutions-architect-associate.png?raw=true" />
-</a>
-<a href="https://www.youracclaim.com/badges/4bcbaa97-1fe9-432b-bb1f-378ff7e338a6/public_url" target="_blank">
-  <img alt="Developer Associate" width="200px" src="https://github.com/azhar22k/azhar22k/blob/master/aws-certified-developer-associate.png?raw=true" />
+<a href="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/91346312" target="_blank">
+  <img alt="Hands-On Essentials: Data Warehousing Workshop" width="200px" src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/91346312" />
 </a>
 <a href="https://www.credly.com/badges/a13053a4-2145-4a26-aa81-f7bf05b7154d/public_url" target="_blank">
   <img alt="Object Storage Specialized" width="200px" src="https://github.com/azhar22k/azhar22k/blob/master/aws-storage-object-specialized.png?raw=true" />
+</a>
+<a href="https://www.youracclaim.com/badges/35d0e149-1a64-454b-b800-ce45435dc418/public_url" target="_blank">
+  <img alt="Solutions Architect Associate" width="200px" src="https://github.com/azhar22k/azhar22k/blob/master/aws-certified-solutions-architect-associate.png?raw=true" />
+</a>
+<a href="https://www.youracclaim.com/badges/4bcbaa97-1fe9-432b-bb1f-378ff7e338a6/public_url" target="_blank">
+  <img alt="Developer Associate" width="200px" src="https://github.com/azhar22k/azhar22k/blob/master/aws-certified-developer-associate.png?raw=true" />
 </a>
 
 <hr>
