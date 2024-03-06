@@ -46,6 +46,9 @@ Public Contributions             |  Top Languages
 <a href="https://stackoverflow.com/users/6426237/azhar22k" target="_blank">
   <img align="left" alt="stackoverflow Profile" src="https://github-readme-stackoverflow.vercel.app/?userID=6426237" >
 </a>
+<a href="https://achieve.snowflake.com/embed/3d22e4a2-84c7-41ac-9ac6-67b33b6d2a4c" target="_blank">
+  <img alt="SnowPro: Core Certification" width="200px" src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/96511770" />
+</a>
 <a href="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/91346312" target="_blank">
   <img alt="Hands-On Essentials: Data Warehousing Workshop" width="200px" src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/91346312" />
 </a>
