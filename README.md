@@ -102,6 +102,10 @@ I'm a polyglot, ambivert and loves Sci-Fi
 ### ⚡ Recent Activity
 
 <!-- START_SECTION:activity -->
-- Active on cloud infrastructure, DevOps pipelines, and open-source projects.
-- Exploring new architectures with AWS, Terraform, and Kubernetes.
+- 🌱 created branch `feat/async-spawn-cli-enhancements` in [azhar22k/ourl](https://github.com/azhar22k/ourl) `(Sep 14)`
+- 🚀 pushed 0 commits to [azhar22k/ourl](https://github.com/azhar22k/ourl) `(Sep 14)`
+- 🔀 merged PR [#25 in azhar22k/ourl](https://github.com/azhar22k/ourl) `(Sep 14)`
+- 🔀 opened PR [#25 in azhar22k/ourl](https://github.com/azhar22k/ourl) `(Sep 14)`
+- 🔀 merged PR [#23 in azhar22k/ourl](https://github.com/azhar22k/ourl) `(Sep 14)`
+- 🔀 opened PR [#23 in azhar22k/ourl](https://github.com/azhar22k/ourl) `(Sep 14)`
 <!-- END_SECTION:activity -->
