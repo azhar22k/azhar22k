@@ -1,0 +1,6 @@
+<svg width="600" height="120" viewBox="0 0 600 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="120" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <text x="50%" y="45%" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#58a6ff" font-weight="600">🐍 Contribution Snake</text>
+  <text x="50%" y="65%" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8b949e">Will be automatically animated by GitHub Actions on push</text>
+</svg>
+
