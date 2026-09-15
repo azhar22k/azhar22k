@@ -102,10 +102,10 @@ I'm a polyglot, ambivert and loves Sci-Fi
 ### ⚡ Recent Activity
 
 <!-- START_SECTION:activity -->
-- 🌱 created branch `feat/async-spawn-cli-enhancements` in [azhar22k/ourl](https://github.com/azhar22k/ourl) `(Sep 14)`
 - 🚀 pushed 0 commits to [azhar22k/ourl](https://github.com/azhar22k/ourl) `(Sep 14)`
+- 🚀 pushed 0 commits to [azhar22k/azhar22k](https://github.com/azhar22k/azhar22k) `(Sep 14)`
+- 🌱 created branch `ci/release-please-and-npm-publish` in [azhar22k/ourl](https://github.com/azhar22k/ourl) `(Sep 14)`
+- 🌱 created branch `feat/async-spawn-cli-enhancements` in [azhar22k/ourl](https://github.com/azhar22k/ourl) `(Sep 14)`
 - 🔀 merged PR [#25 in azhar22k/ourl](https://github.com/azhar22k/ourl) `(Sep 14)`
 - 🔀 opened PR [#25 in azhar22k/ourl](https://github.com/azhar22k/ourl) `(Sep 14)`
-- 🔀 merged PR [#23 in azhar22k/ourl](https://github.com/azhar22k/ourl) `(Sep 14)`
-- 🔀 opened PR [#23 in azhar22k/ourl](https://github.com/azhar22k/ourl) `(Sep 14)`
 <!-- END_SECTION:activity -->
