@@ -83,7 +83,9 @@ I'm a polyglot, ambivert and loves Sci-Fi
   <img alt="Organizations Contributed To" src="./assets/orgs-dark.svg" width="620" />
 </picture>
 
-<table width="100%" align="left">
+<br/>
+
+<table width="100%">
   <tr>
     <td align="center" width="25%" valign="top">
       <a href="https://github.com/peak-ai" target="_blank">
@@ -211,7 +213,6 @@ I'm a polyglot, ambivert and loves Sci-Fi
     </td>
   </tr>
 </table>
-
 <!-- END_SECTION:organizations -->
 
 ---
