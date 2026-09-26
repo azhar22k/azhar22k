@@ -50,7 +50,7 @@ Here are some ideas to get you started:
 I'm a polyglot, ambivert and loves Sci-Fi
 ---
 
-- 💬 Ask me about AWS, Terraform, Kubernetes, Superset
+- 💬 Ask me about AWS, Terraform, Kubernetes, Superset, B2C, Retail AI, Merchandising
 <hr>
 
 ### 🏆 Certifications & Badges
