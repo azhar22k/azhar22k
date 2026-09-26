@@ -1,28 +1,10 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/dr-strange-spine-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/dr-strange-spine-light.svg" />
-  <img align="right" src="./assets/dr-strange-spine-dark.svg" alt="Doctor Strange Mystic Arts Rail" width="90" height="auto" />
+  <img align="right" src="./assets/dr-strange-spine-dark.svg" alt="Doctor Strange Mystic Arts Rail" width="90" height="2750" />
 </picture>
 
 # Hola 👋, I'm Azhar
-<!--
-**azhar22k/azhar22k** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-I'm a polyglot, ambivert, and love Sci-Fi.
-
-Here are some ideas to get you started:
-- 🔭 Currently working on **AWS**, **Terraform**, **Kubernetes**, and **Superset**
-- 💬 Ask me about Cloud Architecture, Infrastructure as Code, and DevOps
-
-- 🔭 I’m currently working on AWS, Terraform
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
 
 ### 🌐 Connect with me
 
@@ -50,11 +32,11 @@ Here are some ideas to get you started:
   </a>
 </p>
 
-<hr>
+---
 I'm a polyglot, ambivert and loves Sci-Fi
 
 - 💬 Ask me about AWS, Terraform, Kubernetes, Superset, B2C, Retail AI, Merchandising
-<hr>
+---
 
 ### 🏆 Certifications & Badges
 
@@ -78,10 +60,12 @@ I'm a polyglot, ambivert and loves Sci-Fi
     <img alt="Developer Associate" width="160px" src="./aws-certified-developer-associate.png" />
   </a>
 </p>
-<hr>
+<br clear="left"/>
+
+
+---
 
 ### 📊 GitHub Overview & Top Languages
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/stats-light.svg" />
@@ -89,8 +73,8 @@ I'm a polyglot, ambivert and loves Sci-Fi
 </picture>
 
 ---
-
 ### 🏢 Organizations Contributed To
+
 
 <!-- START_SECTION:organizations -->
 <picture>
@@ -99,9 +83,7 @@ I'm a polyglot, ambivert and loves Sci-Fi
   <img alt="Organizations Contributed To" src="./assets/orgs-dark.svg" width="100%" />
 </picture>
 
-<br/>
-
-<table width="100%">
+<table width="100%" align="left">
   <tr>
     <td align="center" width="25%" valign="top">
       <a href="https://github.com/peak-ai" target="_blank">
@@ -229,6 +211,7 @@ I'm a polyglot, ambivert and loves Sci-Fi
     </td>
   </tr>
 </table>
+
 <!-- END_SECTION:organizations -->
 
 ---
