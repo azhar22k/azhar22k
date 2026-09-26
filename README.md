@@ -140,6 +140,20 @@ I'm a polyglot, ambivert and loves Sci-Fi
       <sub><a href="https://github.com/localstack/rolo" target="_blank"><code>rolo</code></a> • <a href="https://github.com/localstack/pulumi-local" target="_blank"><code>pulumi-local</code></a></sub>
     </td>
     <td align="center" width="25%" valign="top">
+      <a href="https://github.com/peak-platform" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/97734924?v=4" width="54" height="54" alt="Peak Platform" /><br />
+        <b>Peak Platform</b>
+      </a>
+      <br />
+      <sub><code>📅 2020, 2022</code></sub>
+      <br />
+      <sub><i>Open Source Ecosystem</i></sub>
+      <br />
+      <sub><a href="https://github.com/peak-platform/.github" target="_blank"><code>.github</code></a> • <a href="https://github.com/peak-platform/kafka-connect-jdbc" target="_blank"><code>kafka-connect-jdbc</code></a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="25%" valign="top">
       <a href="https://github.com/aws-cloudformation" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/19900777?v=4" width="54" height="54" alt="AWS CloudFormation" /><br />
         <b>AWS CloudFormation</b>
@@ -151,8 +165,6 @@ I'm a polyglot, ambivert and loves Sci-Fi
       <br />
       <sub><a href="https://github.com/aws-cloudformation/cloudformation-coverage-roadmap" target="_blank"><code>cloudformation-coverage-roadmap</code></a></sub>
     </td>
-  </tr>
-  <tr>
     <td align="center" width="25%" valign="top">
       <a href="https://github.com/camptocamp" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/28109?v=4" width="54" height="54" alt="Camptocamp" /><br />
@@ -166,6 +178,18 @@ I'm a polyglot, ambivert and loves Sci-Fi
       <sub><a href="https://github.com/camptocamp/terraboard" target="_blank"><code>terraboard</code></a></sub>
     </td>
     <td align="center" width="25%" valign="top">
+      <a href="https://github.com/PeakBI" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/22062531?v=4" width="54" height="54" alt="Peak" /><br />
+        <b>Peak</b>
+      </a>
+      <br />
+      <sub><code>📅 2021</code></sub>
+      <br />
+      <sub><i>All things peak related!</i></sub>
+      <br />
+      <sub><a href="https://github.com/PeakBI/aws.signature" target="_blank"><code>aws.signature</code></a></sub>
+    </td>
+    <td align="center" width="25%" valign="top">
       <a href="https://github.com/apache" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/47359?v=4" width="54" height="54" alt="The Apache Software Foundation" /><br />
         <b>The Apache Software Foundation</b>
@@ -177,6 +201,8 @@ I'm a polyglot, ambivert and loves Sci-Fi
       <br />
       <sub><a href="https://github.com/apache/superset" target="_blank"><code>superset</code></a></sub>
     </td>
+  </tr>
+  <tr>
     <td align="center" width="25%" valign="top">
       <a href="https://github.com/npm" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/6078720?v=4" width="54" height="54" alt="npm" /><br />
