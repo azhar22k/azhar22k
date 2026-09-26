@@ -715,8 +715,9 @@ def generate_svg(stats, theme="dark"):
 
 def generate_orgs_svg(orgs, theme="dark"):
     """
-    Generates a high-quality SVG overview card highlighting all organizations
-    contributed to over the years, matching the dimensions and styling of stats-dark.svg.
+    Generates a high-quality SVG overview card highlighting:
+      1. Overview Metrics on the left ("Organizations & Open Source", cleanly right-aligned with zero overlap)
+      2. Contributed Organization Tabs on the right (structured 2-column pill badges with zero overflow)
     """
     is_dark = (theme == "dark")
     bg_color = "#0d1117" if is_dark else "#ffffff"
@@ -752,9 +753,9 @@ def generate_orgs_svg(orgs, theme="dark"):
     col2 = orgs[4:8]
 
     right_items = []
-    y_start = 72
+    y_start = 70
 
-    # Column 1 pills (x: 315 -> 451)
+    # Column 1 tabs (x: 315 -> 450)
     for i, o in enumerate(col1):
         cy = y_start + (i * 26)
         c_dot = dot_colors[i % len(dot_colors)]
@@ -764,13 +765,13 @@ def generate_orgs_svg(orgs, theme="dark"):
             name = name[:12] + "…"
         right_items.append(f"""
         <g transform="translate(315, {cy})">
-          <rect width="136" height="22" rx="4" fill="{pill_bg}" stroke="{pill_border}" stroke-width="1" />
-          <circle cx="10" cy="11" r="3.5" fill="{c_dot}" />
-          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="{text_color}">{name}</text>
+          <rect width="135" height="23" rx="5" fill="{pill_bg}" stroke="{pill_border}" stroke-width="1" />
+          <circle cx="11" cy="11.5" r="3.5" fill="{c_dot}" />
+          <text x="22" y="15.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="{text_color}">{name}</text>
         </g>
         """)
 
-    # Column 2 pills (x: 460 -> 596)
+    # Column 2 tabs (x: 462 -> 597)
     for i, o in enumerate(col2):
         cy = y_start + (i * 26)
         c_dot = dot_colors[(i + 4) % len(dot_colors)]
@@ -779,47 +780,48 @@ def generate_orgs_svg(orgs, theme="dark"):
         if len(name) > 13:
             name = name[:12] + "…"
         right_items.append(f"""
-        <g transform="translate(460, {cy})">
-          <rect width="136" height="22" rx="4" fill="{pill_bg}" stroke="{pill_border}" stroke-width="1" />
-          <circle cx="10" cy="11" r="3.5" fill="{c_dot}" />
-          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="{text_color}">{name}</text>
+        <g transform="translate(462, {cy})">
+          <rect width="135" height="23" rx="5" fill="{pill_bg}" stroke="{pill_border}" stroke-width="1" />
+          <circle cx="11" cy="11.5" r="3.5" fill="{c_dot}" />
+          <text x="22" y="15.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="{text_color}">{name}</text>
         </g>
         """)
 
     svg_content = f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .header {{ font: 600 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: {title_color}; }}
+    .sub-header {{ font: 400 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: {muted_color}; }}
     .stat-label {{ font: 400 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: {muted_color}; }}
     .stat-value {{ font: 600 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: {text_color}; }}
   </style>
   <rect x="0.5" y="0.5" rx="8" width="{width - 1}" height="{height - 1}" fill="{bg_color}" stroke="{border_color}"/>
   
-  <!-- Left: Organizations Stats -->
+  <!-- Left: Organizations & Open Source -->
   <text x="25" y="40" class="header">Organizations &amp; Open Source</text>
   
   <g transform="translate(25, 68)">
     <text x="0" y="0" class="stat-label">🏢 Organizations:</text>
-    <text x="145" y="0" class="stat-value">{total_orgs} Orgs</text>
+    <text x="245" y="0" text-anchor="end" class="stat-value">{total_orgs} Orgs</text>
     
-    <text x="0" y="26" class="stat-label">📅 Active Timeline:</text>
-    <text x="145" y="26" class="stat-value">{year_span}</text>
+    <text x="0" y="26" class="stat-label">📅 Timeline:</text>
+    <text x="245" y="26" text-anchor="end" class="stat-value">{year_span}</text>
     
-    <text x="0" y="52" class="stat-label">⚡ OSS Contributions:</text>
-    <text x="145" y="52" class="stat-value">{total_contribs}+ Activities</text>
+    <text x="0" y="52" class="stat-label">⚡ Contributions:</text>
+    <text x="245" y="52" text-anchor="end" class="stat-value">{total_contribs}+ Contribs</text>
     
-    <text x="0" y="78" class="stat-label">🌐 Primary Focus:</text>
-    <text x="145" y="78" class="stat-value">AI • Cloud • DevOps</text>
+    <text x="0" y="78" class="stat-label">🌐 Focus Areas:</text>
+    <text x="245" y="78" text-anchor="end" class="stat-value">Cloud &amp; AI</text>
     
-    <text x="0" y="104" class="stat-label">⭐ Key Projects:</text>
-    <text x="145" y="104" class="stat-value">Superset, LocalStack</text>
+    <text x="0" y="104" class="stat-label">⭐ Ecosystem:</text>
+    <text x="245" y="104" text-anchor="end" class="stat-value">DevOps &amp; IaC</text>
   </g>
 
   <!-- Divider Line -->
-  <line x1="298" y1="25" x2="298" y2="175" stroke="{border_color}" stroke-width="1" />
+  <line x1="290" y1="25" x2="290" y2="175" stroke="{border_color}" stroke-width="1" />
 
-  <!-- Right: Organizations Contributed -->
+  <!-- Right: Contributed Organization Tabs -->
   <text x="315" y="40" class="header">Contributed Organizations</text>
-  <text x="315" y="56" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="{muted_color}">Active community contributions</text>
+  <text x="315" y="56" class="sub-header">Active community &amp; OSS partners</text>
   
   {''.join(right_items)}
 </svg>"""
@@ -827,29 +829,10 @@ def generate_orgs_svg(orgs, theme="dark"):
 
 def generate_orgs_markdown(orgs):
     """
-    Generates a fancy, responsive HTML table card grid and badge header
+    Generates a fancy, responsive HTML table card grid and picture card
     showcasing all organizations contributed to over the years.
     """
-    all_years = set()
-    for o in orgs:
-        for y in o.get("years", []):
-            all_years.add(y)
-    min_year = min(all_years) if all_years else 2019
-    max_year = max(all_years) if all_years else 2026
-    year_span = f"{min_year} — {max_year}"
-    year_span_badge = f"{min_year}_--_{max_year}"
-    total_orgs = len(orgs)
-
-    # 1. Summary Badges Bar
-    badges_bar = f"""<p align="center">
-  <img src="https://img.shields.io/badge/Organizations-{total_orgs}_Open_Source_Orgs-58a6ff?style=for-the-badge&logo=github&logoColor=white" alt="{total_orgs} Organizations" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Timeline-{year_span_badge}-bc8cff?style=for-the-badge&logo=git&logoColor=white" alt="{year_span}" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Focus-AI_•_Cloud_•_IaC_•_OSS-3fb950?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Focus Areas" />
-</p>
-
-<picture>
+    picture_banner = """<picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/orgs-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/orgs-light.svg" />
   <img alt="Organizations Contributed To" src="./assets/orgs-dark.svg" width="100%" />
@@ -898,7 +881,7 @@ def generate_orgs_markdown(orgs):
     table_lines.append("</table>")
 
     table_content = "\n".join(table_lines)
-    return f"{badges_bar}\n\n{table_content}"
+    return f"{picture_banner}\n\n{table_content}"
 
 def update_readme_organizations(readme_path, orgs_markdown):
     """
