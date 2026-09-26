@@ -786,7 +786,7 @@ def generate_orgs_markdown(orgs):
     picture_banner = """<picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/orgs-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/orgs-light.svg" />
-  <img alt="Organizations Contributed To" src="./assets/orgs-dark.svg" width="100%" />
+  <img alt="Organizations Contributed To" src="./assets/orgs-dark.svg" width="620" />
 </picture>
 
 <br/>"""

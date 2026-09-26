@@ -69,7 +69,7 @@ I'm a polyglot, ambivert and loves Sci-Fi
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/stats-light.svg" />
-  <img alt="GitHub Stats and Languages" src="./assets/stats-dark.svg" width="100%" />
+  <img alt="GitHub Stats and Languages" src="./assets/stats-dark.svg" width="620" />
 </picture>
 
 ---
@@ -80,7 +80,7 @@ I'm a polyglot, ambivert and loves Sci-Fi
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/orgs-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/orgs-light.svg" />
-  <img alt="Organizations Contributed To" src="./assets/orgs-dark.svg" width="100%" />
+  <img alt="Organizations Contributed To" src="./assets/orgs-dark.svg" width="620" />
 </picture>
 
 <table width="100%" align="left">
@@ -221,7 +221,7 @@ I'm a polyglot, ambivert and loves Sci-Fi
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/snake-light.svg" />
-  <img alt="Contribution Snake" src="./assets/snake-dark.svg" width="100%" />
+  <img alt="Contribution Snake" src="./assets/snake-dark.svg" width="760" />
 </picture>
 
 ---
