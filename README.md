@@ -104,7 +104,7 @@ I'm a polyglot, ambivert and loves Sci-Fi
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/snake-light.svg" />
-  <img alt="Contribution Snake" src="./assets/snake-dark.svg" width="760" />
+  <img alt="Contribution Snake" src="./assets/snake-dark.svg" width="620" />
 </picture>
 
 ---
