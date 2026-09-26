@@ -68,14 +68,14 @@ ORGANIZATION_TAGLINES = {
     "npm": "JavaScript Package Manager Ecosystem",
 }
 
-# Clean display names for SVG card pill badges
+# Clean display names for SVG card pill badges (concise to prevent overlap)
 ORGANIZATION_SVG_NAMES = {
-    "apache": "Apache Foundation",
-    "aws-cloudformation": "AWS CloudFormation",
-    "The-PR-Agent": "The PR Agent",
     "peak-ai": "Peak AI",
+    "The-PR-Agent": "PR Agent",
     "localstack": "LocalStack",
+    "aws-cloudformation": "AWS Cloud",
     "camptocamp": "Camptocamp",
+    "apache": "Apache",
     "simple-icons": "Simple Icons",
     "npm": "npm",
 }
@@ -754,35 +754,35 @@ def generate_orgs_svg(orgs, theme="dark"):
     right_items = []
     y_start = 72
 
-    # Column 1 pills
+    # Column 1 pills (x: 315 -> 451)
     for i, o in enumerate(col1):
         cy = y_start + (i * 26)
         c_dot = dot_colors[i % len(dot_colors)]
         login = o.get("login", "")
         name = ORGANIZATION_SVG_NAMES.get(login) or o.get("name", "")
-        if len(name) > 19:
-            name = name[:18] + "…"
+        if len(name) > 13:
+            name = name[:12] + "…"
         right_items.append(f"""
-        <g transform="translate(318, {cy})">
-          <rect width="142" height="22" rx="4" fill="{pill_bg}" stroke="{pill_border}" stroke-width="1" />
+        <g transform="translate(315, {cy})">
+          <rect width="136" height="22" rx="4" fill="{pill_bg}" stroke="{pill_border}" stroke-width="1" />
           <circle cx="10" cy="11" r="3.5" fill="{c_dot}" />
-          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" fill="{text_color}">{name}</text>
+          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="{text_color}">{name}</text>
         </g>
         """)
 
-    # Column 2 pills
+    # Column 2 pills (x: 460 -> 596)
     for i, o in enumerate(col2):
         cy = y_start + (i * 26)
         c_dot = dot_colors[(i + 4) % len(dot_colors)]
         login = o.get("login", "")
         name = ORGANIZATION_SVG_NAMES.get(login) or o.get("name", "")
-        if len(name) > 19:
-            name = name[:18] + "…"
+        if len(name) > 13:
+            name = name[:12] + "…"
         right_items.append(f"""
-        <g transform="translate(466, {cy})">
-          <rect width="142" height="22" rx="4" fill="{pill_bg}" stroke="{pill_border}" stroke-width="1" />
+        <g transform="translate(460, {cy})">
+          <rect width="136" height="22" rx="4" fill="{pill_bg}" stroke="{pill_border}" stroke-width="1" />
           <circle cx="10" cy="11" r="3.5" fill="{c_dot}" />
-          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" fill="{text_color}">{name}</text>
+          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="{text_color}">{name}</text>
         </g>
         """)
 
@@ -798,28 +798,28 @@ def generate_orgs_svg(orgs, theme="dark"):
   <text x="25" y="40" class="header">Organizations &amp; Open Source</text>
   
   <g transform="translate(25, 68)">
-    <text x="0" y="0" class="stat-label">🏢 Organizations Contributed:</text>
-    <text x="200" y="0" class="stat-value">{total_orgs} Orgs</text>
+    <text x="0" y="0" class="stat-label">🏢 Organizations:</text>
+    <text x="145" y="0" class="stat-value">{total_orgs} Orgs</text>
     
-    <text x="0" y="26" class="stat-label">📅 Contribution Timeline:</text>
-    <text x="200" y="26" class="stat-value">{year_span}</text>
+    <text x="0" y="26" class="stat-label">📅 Active Timeline:</text>
+    <text x="145" y="26" class="stat-value">{year_span}</text>
     
     <text x="0" y="52" class="stat-label">⚡ OSS Contributions:</text>
-    <text x="200" y="52" class="stat-value">{total_contribs}+ Activities</text>
+    <text x="145" y="52" class="stat-value">{total_contribs}+ Activities</text>
     
-    <text x="0" y="78" class="stat-label">🌐 Primary Domains:</text>
-    <text x="200" y="78" class="stat-value">AI • Cloud • IaC • DevOps</text>
+    <text x="0" y="78" class="stat-label">🌐 Primary Focus:</text>
+    <text x="145" y="78" class="stat-value">AI • Cloud • DevOps</text>
     
-    <text x="0" y="104" class="stat-label">⭐ Notable Projects:</text>
-    <text x="200" y="104" class="stat-value">Superset, LocalStack, ...</text>
+    <text x="0" y="104" class="stat-label">⭐ Key Projects:</text>
+    <text x="145" y="104" class="stat-value">Superset, LocalStack</text>
   </g>
 
   <!-- Divider Line -->
-  <line x1="305" y1="25" x2="305" y2="175" stroke="{border_color}" stroke-width="1" />
+  <line x1="298" y1="25" x2="298" y2="175" stroke="{border_color}" stroke-width="1" />
 
   <!-- Right: Organizations Contributed -->
-  <text x="320" y="40" class="header">Contributed Organizations</text>
-  <text x="320" y="56" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="{muted_color}">Across {year_span}</text>
+  <text x="315" y="40" class="header">Contributed Organizations</text>
+  <text x="315" y="56" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="{muted_color}">Active community contributions</text>
   
   {''.join(right_items)}
 </svg>"""

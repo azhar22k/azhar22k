@@ -10,76 +10,76 @@
   <text x="25" y="40" class="header">Organizations &amp; Open Source</text>
   
   <g transform="translate(25, 68)">
-    <text x="0" y="0" class="stat-label">🏢 Organizations Contributed:</text>
-    <text x="200" y="0" class="stat-value">10 Orgs</text>
+    <text x="0" y="0" class="stat-label">🏢 Organizations:</text>
+    <text x="145" y="0" class="stat-value">8 Orgs</text>
     
-    <text x="0" y="26" class="stat-label">📅 Contribution Timeline:</text>
-    <text x="200" y="26" class="stat-value">2019 — 2026</text>
+    <text x="0" y="26" class="stat-label">📅 Active Timeline:</text>
+    <text x="145" y="26" class="stat-value">2019 — 2026</text>
     
     <text x="0" y="52" class="stat-label">⚡ OSS Contributions:</text>
-    <text x="200" y="52" class="stat-value">167+ Activities</text>
+    <text x="145" y="52" class="stat-value">164+ Activities</text>
     
-    <text x="0" y="78" class="stat-label">🌐 Primary Domains:</text>
-    <text x="200" y="78" class="stat-value">AI • Cloud • IaC • DevOps</text>
+    <text x="0" y="78" class="stat-label">🌐 Primary Focus:</text>
+    <text x="145" y="78" class="stat-value">AI • Cloud • DevOps</text>
     
-    <text x="0" y="104" class="stat-label">⭐ Notable Projects:</text>
-    <text x="200" y="104" class="stat-value">Superset, LocalStack, ...</text>
+    <text x="0" y="104" class="stat-label">⭐ Key Projects:</text>
+    <text x="145" y="104" class="stat-value">Superset, LocalStack</text>
   </g>
 
   <!-- Divider Line -->
-  <line x1="305" y1="25" x2="305" y2="175" stroke="#e1e4e8" stroke-width="1" />
+  <line x1="298" y1="25" x2="298" y2="175" stroke="#e1e4e8" stroke-width="1" />
 
   <!-- Right: Organizations Contributed -->
-  <text x="320" y="40" class="header">Contributed Organizations</text>
-  <text x="320" y="56" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#57606a">Across 2019 — 2026</text>
+  <text x="315" y="40" class="header">Contributed Organizations</text>
+  <text x="315" y="56" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#57606a">Active community contributions</text>
   
   
-        <g transform="translate(318, 72)">
-          <rect width="142" height="22" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
+        <g transform="translate(315, 72)">
+          <rect width="136" height="22" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
           <circle cx="10" cy="11" r="3.5" fill="#0969da" />
-          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" fill="#24292f">Peak AI</text>
+          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#24292f">Peak AI</text>
         </g>
         
-        <g transform="translate(318, 98)">
-          <rect width="142" height="22" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
+        <g transform="translate(315, 98)">
+          <rect width="136" height="22" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
           <circle cx="10" cy="11" r="3.5" fill="#1a7f37" />
-          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" fill="#24292f">The PR Agent</text>
+          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#24292f">PR Agent</text>
         </g>
         
-        <g transform="translate(318, 124)">
-          <rect width="142" height="22" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
+        <g transform="translate(315, 124)">
+          <rect width="136" height="22" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
           <circle cx="10" cy="11" r="3.5" fill="#8250df" />
-          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" fill="#24292f">LocalStack</text>
+          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#24292f">LocalStack</text>
         </g>
         
-        <g transform="translate(318, 150)">
-          <rect width="142" height="22" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
+        <g transform="translate(315, 150)">
+          <rect width="136" height="22" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
           <circle cx="10" cy="11" r="3.5" fill="#bc4c00" />
-          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" fill="#24292f">Peak Platform</text>
+          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#24292f">AWS Cloud</text>
         </g>
         
-        <g transform="translate(466, 72)">
-          <rect width="142" height="22" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
+        <g transform="translate(460, 72)">
+          <rect width="136" height="22" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
           <circle cx="10" cy="11" r="3.5" fill="#116329" />
-          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" fill="#24292f">AWS CloudFormation</text>
+          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#24292f">Camptocamp</text>
         </g>
         
-        <g transform="translate(466, 98)">
-          <rect width="142" height="22" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
+        <g transform="translate(460, 98)">
+          <rect width="136" height="22" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
           <circle cx="10" cy="11" r="3.5" fill="#0550ae" />
-          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" fill="#24292f">Camptocamp</text>
+          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#24292f">Apache</text>
         </g>
         
-        <g transform="translate(466, 124)">
-          <rect width="142" height="22" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
+        <g transform="translate(460, 124)">
+          <rect width="136" height="22" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
           <circle cx="10" cy="11" r="3.5" fill="#9a6700" />
-          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" fill="#24292f">Peak</text>
+          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#24292f">npm</text>
         </g>
         
-        <g transform="translate(466, 150)">
-          <rect width="142" height="22" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
+        <g transform="translate(460, 150)">
+          <rect width="136" height="22" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
           <circle cx="10" cy="11" r="3.5" fill="#bf3989" />
-          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" fill="#24292f">Apache Foundation</text>
+          <text x="20" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#24292f">Simple Icons</text>
         </g>
         
 </svg>
