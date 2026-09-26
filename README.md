@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/dr-strange-spine-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/dr-strange-spine-light.svg" />
-  <img align="right" src="./assets/dr-strange-spine-dark.svg" alt="Doctor Strange Mystic Arts Rail" width="90" height="2750" />
+  <img align="right" src="./assets/dr-strange-spine-dark.svg" alt="Doctor Strange Mystic Arts Rail" width="90" height="1780" />
 </picture>
 
 # Hola 👋, I'm Azhar
@@ -87,10 +87,8 @@ I'm a polyglot, ambivert and loves Sci-Fi
   <a href="https://github.com/peak-ai" target="_blank"><img src="https://avatars.githubusercontent.com/u/52752607?v=4" width="54" height="54" alt="Peak AI" title="Peak AI · 2019 — 2026 · Enterprise AI &amp; Cloud Infrastructure" /></a>&nbsp;
   <a href="https://github.com/The-PR-Agent" target="_blank"><img src="https://avatars.githubusercontent.com/u/264152072?v=4" width="54" height="54" alt="The PR Agent" title="The PR Agent · 2026 · AI-Powered Automated PR Code Reviews" /></a>&nbsp;
   <a href="https://github.com/localstack" target="_blank"><img src="https://avatars.githubusercontent.com/u/28732122?v=4" width="54" height="54" alt="LocalStack" title="LocalStack · 2026 · Local AWS Cloud Development Platform" /></a>&nbsp;
-  <a href="https://github.com/peak-platform" target="_blank"><img src="https://avatars.githubusercontent.com/u/97734924?v=4" width="54" height="54" alt="Peak Platform" title="Peak Platform · 2020, 2022 · Open Source Ecosystem" /></a>&nbsp;
   <a href="https://github.com/aws-cloudformation" target="_blank"><img src="https://avatars.githubusercontent.com/u/19900777?v=4" width="54" height="54" alt="AWS CloudFormation" title="AWS CloudFormation · 2022 · AWS Infrastructure as Code (IaC)" /></a>&nbsp;
   <a href="https://github.com/camptocamp" target="_blank"><img src="https://avatars.githubusercontent.com/u/28109?v=4" width="54" height="54" alt="Camptocamp" title="Camptocamp · 2020 — 2021 · Open Source DevOps &amp; Terraform State" /></a>&nbsp;
-  <a href="https://github.com/PeakBI" target="_blank"><img src="https://avatars.githubusercontent.com/u/22062531?v=4" width="54" height="54" alt="Peak" title="Peak · 2021 · All things peak related!" /></a>&nbsp;
   <a href="https://github.com/apache" target="_blank"><img src="https://avatars.githubusercontent.com/u/47359?v=4" width="54" height="54" alt="The Apache Software Foundation" title="The Apache Software Foundation · 2020 · Open-Source Data Exploration (Superset)" /></a>&nbsp;
   <a href="https://github.com/npm" target="_blank"><img src="https://avatars.githubusercontent.com/u/6078720?v=4" width="54" height="54" alt="npm" title="npm · 2020 · JavaScript Package Manager Ecosystem" /></a>&nbsp;
   <a href="https://github.com/simple-icons" target="_blank"><img src="https://avatars.githubusercontent.com/u/29872746?v=4" width="54" height="54" alt="Simple Icons" title="Simple Icons · 2020 · Developer Tech &amp; Brand SVG Icons" /></a>
