@@ -2,8 +2,8 @@ name: Update Profile Stats & Activity
 
 on:
   schedule:
-    # Run every day at 00:00 UTC
-    - cron: '0 0 * * *'
+    # Run weekly every Monday at 06:00 AM IST (00:30 UTC)
+    - cron: '30 0 * * 1'
   workflow_dispatch:
   push:
     branches:
@@ -17,10 +17,10 @@ permissions:
 
 jobs:
   update-profile:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Generate Contribution Snake
         uses: Platane/snk@v3
@@ -31,7 +31,7 @@ jobs:
             assets/snake-dark.svg?palette=github-dark
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.11'
 
