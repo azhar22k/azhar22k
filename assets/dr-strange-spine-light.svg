@@ -1,0 +1,351 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 2750" width="90" height="2750" fill="none">
+  <defs>
+    <!-- Doctor Strange Color Gradients (Light Mode) -->
+    <linearGradient id="mysticBeamLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d97706" stop-opacity="1"/>
+      <stop offset="18%" stop-color="#059669" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#ea580c" stop-opacity="1"/>
+      <stop offset="58%" stop-color="#7c3aed" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#0284c7" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="1"/>
+    </linearGradient>
+
+    <linearGradient id="coreLaserLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="18%" stop-color="#047857"/>
+      <stop offset="35%" stop-color="#c2410c"/>
+      <stop offset="58%" stop-color="#6d28d9"/>
+      <stop offset="80%" stop-color="#0369a1"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+
+    <radialGradient id="vishantiGlowLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#f59e0b" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="timeStoneGlowLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a7f3d0" stop-opacity="1"/>
+      <stop offset="45%" stop-color="#10b981" stop-opacity="0.6"/>
+      <stop offset="80%" stop-color="#059669" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#047857" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="mandalaGlowLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fed7aa" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#f97316" stop-opacity="0.5"/>
+      <stop offset="80%" stop-color="#ea580c" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#c2410c" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="portalGlowLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef3c7" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#f59e0b" stop-opacity="0.6"/>
+      <stop offset="80%" stop-color="#d97706" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#b45309" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="intenseGlowL" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    <![CDATA[
+    @keyframes fastSpinCW {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes fastSpinCCW {
+      0% { transform: rotate(360deg); }
+      100% { transform: rotate(0deg); }
+    }
+    @keyframes pulseScale {
+      0%, 100% { transform: scale(1); opacity: 0.85; }
+      50% { transform: scale(1.18); opacity: 1; }
+    }
+    @keyframes timeDilationWave {
+      0% { r: 8px; opacity: 1; stroke-width: 3px; }
+      50% { r: 26px; opacity: 0.7; stroke-width: 2px; }
+      100% { r: 42px; opacity: 0; stroke-width: 0.5px; }
+    }
+    @keyframes laserRush {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: -120; }
+    }
+    @keyframes sparkCascade1 {
+      0% { transform: translateY(0px); opacity: 0; }
+      3% { opacity: 1; }
+      97% { opacity: 1; }
+      100% { transform: translateY(2700px); opacity: 0; }
+    }
+    @keyframes sparkCascade2 {
+      0% { transform: translateY(0px); opacity: 0; }
+      3% { opacity: 1; }
+      97% { opacity: 1; }
+      100% { transform: translateY(2700px); opacity: 0; }
+    }
+    @keyframes runeGlow {
+      0%, 100% { opacity: 0.55; }
+      50% { opacity: 1; }
+    }
+
+    .spin-vishanti { transform-origin: 45px 80px; animation: fastSpinCW 7s linear infinite; }
+    .spin-vishanti-rev { transform-origin: 45px 80px; animation: fastSpinCCW 4s linear infinite; }
+    .pulse-core-1 { transform-origin: 45px 80px; animation: pulseScale 2s ease-in-out infinite; }
+
+    .pulse-eye-core { transform-origin: 45px 480px; animation: pulseScale 1.8s ease-in-out infinite; }
+    .time-wave-1 { transform-origin: 45px 480px; animation: timeDilationWave 2.4s cubic-bezier(0.1, 0.7, 0.1, 1) infinite; }
+    .time-wave-2 { transform-origin: 45px 480px; animation: timeDilationWave 2.4s cubic-bezier(0.1, 0.7, 0.1, 1) infinite 1.2s; }
+    .spin-eye-runes { transform-origin: 45px 480px; animation: fastSpinCCW 6s linear infinite; }
+
+    .spin-mandala-spokes { transform-origin: 45px 940px; animation: fastSpinCW 3.5s linear infinite; }
+    .spin-mandala-squares { transform-origin: 45px 940px; animation: fastSpinCCW 2.5s linear infinite; }
+    .spin-mandala-inner { transform-origin: 45px 940px; animation: fastSpinCW 1.5s linear infinite; }
+    .pulse-mandala { transform-origin: 45px 940px; animation: pulseScale 2s ease-in-out infinite; }
+
+    .spin-mirror-outer { transform-origin: 45px 1580px; animation: fastSpinCW 5s linear infinite; }
+    .spin-mirror-inner { transform-origin: 45px 1580px; animation: fastSpinCCW 3s linear infinite; }
+    .pulse-mirror { transform-origin: 45px 1580px; animation: pulseScale 2.2s ease-in-out infinite; }
+
+    .spin-astral { transform-origin: 45px 2260px; animation: fastSpinCW 4s linear infinite; }
+    .pulse-astral { transform-origin: 45px 2260px; animation: pulseScale 1.6s ease-in-out infinite; }
+
+    .spin-portal-sparks { transform-origin: 45px 2680px; animation: fastSpinCW 2s linear infinite; }
+    .spin-portal-inner { transform-origin: 45px 2680px; animation: fastSpinCCW 3s linear infinite; }
+    .pulse-portal { transform-origin: 45px 2680px; animation: pulseScale 1.5s ease-in-out infinite; }
+
+    .conduit-stream-fast { stroke-dasharray: 5 8; animation: laserRush 0.4s linear infinite; }
+
+    .cascade-1 { animation: sparkCascade1 2.3s linear infinite; }
+    .cascade-2 { animation: sparkCascade2 2.7s linear infinite 0.4s; }
+    .cascade-3 { animation: sparkCascade1 2.0s linear infinite 0.9s; }
+    .cascade-4 { animation: sparkCascade2 2.5s linear infinite 1.3s; }
+    .cascade-5 { animation: sparkCascade1 2.1s linear infinite 1.7s; }
+
+    .badge-pill { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 6.5px; font-weight: 800; letter-spacing: 1px; fill: #ffffff; text-anchor: middle; }
+    .rune-symbol { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 7.5px; font-weight: bold; text-anchor: middle; animation: runeGlow 2.5s ease-in-out infinite; }
+    ]]>
+  </style>
+
+  <!-- ==================== VERTICAL CONDUIT SPINE (FULL 2750PX) ==================== -->
+  <line x1="45" y1="20" x2="45" y2="2720" stroke="url(#mysticBeamLight)" stroke-width="6" stroke-linecap="round" opacity="0.35" filter="url(#intenseGlowL)"/>
+
+  <path d="M45,20 Q30,170 45,340 Q60,510 45,680 Q30,850 45,1020 Q60,1190 45,1360 Q30,1530 45,1700 Q60,1870 45,2040 Q30,2210 45,2380 Q60,2550 45,2720" 
+        stroke="#b45309" stroke-width="1.5" fill="none" opacity="0.6" stroke-dasharray="6 6"/>
+  <path d="M45,20 Q60,170 45,340 Q30,510 45,680 Q60,850 45,1020 Q30,1190 45,1360 Q60,1530 45,1700 Q30,1870 45,2040 Q60,2210 45,2380 Q30,2550 45,2720" 
+        stroke="#047857" stroke-width="1.5" fill="none" opacity="0.6" stroke-dasharray="6 6"/>
+
+  <line x1="45" y1="20" x2="45" y2="2720" stroke="url(#coreLaserLight)" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+  <line x1="45" y1="20" x2="45" y2="2720" stroke="#ffffff" stroke-width="2" stroke-linecap="round" class="conduit-stream-fast" opacity="0.95"/>
+
+  <!-- ==================== CONTINUOUS RAPID SLING RING SPARKS ==================== -->
+  <g class="cascade-1">
+    <circle cx="45" cy="20" r="4" fill="#d97706"/>
+    <circle cx="44" cy="11" r="2.5" fill="#f59e0b"/>
+  </g>
+  <g class="cascade-2">
+    <circle cx="45" cy="20" r="3.8" fill="#059669"/>
+    <circle cx="46" cy="11" r="2.2" fill="#10b981"/>
+  </g>
+  <g class="cascade-3">
+    <circle cx="45" cy="20" r="4.2" fill="#ea580c"/>
+    <circle cx="43" cy="10" r="2.5" fill="#f97316"/>
+  </g>
+  <g class="cascade-4">
+    <circle cx="45" cy="20" r="3.6" fill="#7c3aed"/>
+    <circle cx="45" cy="11" r="2.2" fill="#a855f7"/>
+  </g>
+  <g class="cascade-5">
+    <circle cx="45" cy="20" r="3.5" fill="#0284c7"/>
+    <circle cx="46" cy="11" r="2" fill="#38bdf8"/>
+  </g>
+
+  <!-- ==================== NODE 1: SANCTUM SANCTORUM (Y ≈ 80) ==================== -->
+  <g id="node-1-sanctum">
+    <circle cx="45" cy="80" r="36" fill="url(#vishantiGlowLight)" class="pulse-core-1"/>
+    
+    <circle cx="45" cy="80" r="32" stroke="#b45309" stroke-width="1.6" stroke-dasharray="5 5" class="spin-vishanti"/>
+    <circle cx="45" cy="80" r="27" stroke="#d97706" stroke-width="1.2" opacity="0.8"/>
+
+    <g class="spin-vishanti-rev" filter="url(#intenseGlowL)">
+      <circle cx="45" cy="80" r="22" stroke="#b45309" stroke-width="2.6" fill="#fffbeb"/>
+      <path d="M23,80 C35,80 45,70 45,58 C45,70 55,80 67,80 C55,80 45,90 45,102 C45,90 35,80 23,80 Z" 
+            fill="none" stroke="#d97706" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M27,80 C37,80 45,72 45,62 C45,72 53,80 63,80 C53,80 45,88 45,98 C45,88 37,80 27,80 Z" 
+            fill="none" stroke="#b45309" stroke-width="1.4"/>
+      <circle cx="45" cy="80" r="4.5" fill="#f59e0b"/>
+    </g>
+
+    <rect x="15" y="118" width="60" height="15" rx="7.5" fill="#78350f" stroke="#b45309" stroke-width="1.3"/>
+    <text x="45" y="128.5" class="badge-pill">SANCTUM</text>
+  </g>
+
+  <!-- RUNES SEGMENT 1 -> 2 -->
+  <g opacity="0.95">
+    <text x="45" y="180" class="rune-symbol" fill="#b45309">✦ ᚛ ᛟ ᚜ ✦</text>
+    <text x="45" y="255" class="rune-symbol" fill="#047857">◇ K8S ◇</text>
+    <text x="45" y="330" class="rune-symbol" fill="#b45309">✦ AWS ✦</text>
+    <text x="45" y="405" class="rune-symbol" fill="#047857">◇ TF ◇</text>
+  </g>
+
+  <!-- ==================== NODE 2: EYE OF AGAMOTTO / TIME STONE (Y ≈ 480) ==================== -->
+  <g id="node-2-time-stone">
+    <circle cx="45" cy="480" r="12" stroke="#059669" fill="none" class="time-wave-1"/>
+    <circle cx="45" cy="480" r="12" stroke="#047857" fill="none" class="time-wave-2"/>
+
+    <circle cx="45" cy="480" r="38" fill="url(#timeStoneGlowLight)"/>
+
+    <circle cx="45" cy="480" r="28" stroke="#059669" stroke-width="1.5" stroke-dasharray="4 4" class="spin-eye-runes"/>
+
+    <path d="M16,480 C26,462 64,462 74,480 C64,498 26,498 16,480 Z" 
+          fill="#f0fdf4" stroke="#b45309" stroke-width="2.6" filter="url(#intenseGlowL)"/>
+    <path d="M23,480 C31,466 59,466 67,480 C59,494 31,494 23,480 Z" 
+          fill="#dcfce7" stroke="#047857" stroke-width="1.8"/>
+
+    <g class="pulse-eye-core">
+      <circle cx="45" cy="480" r="9" fill="#059669"/>
+      <circle cx="45" cy="480" r="6" fill="#34d399"/>
+      <circle cx="45" cy="480" r="3" fill="#ffffff"/>
+    </g>
+
+    <rect x="12" y="515" width="66" height="15" rx="7.5" fill="#064e3b" stroke="#059669" stroke-width="1.3"/>
+    <text x="45" y="505.5" class="badge-pill">TIME STONE</text>
+  </g>
+
+  <!-- RUNES SEGMENT 2 -> 3 -->
+  <g opacity="0.95">
+    <text x="45" y="600" class="rune-symbol" fill="#047857">✦ ᛏ ᛖ ᚱ ✦</text>
+    <text x="45" y="690" class="rune-symbol" fill="#c2410c">◇ ARCH ◇</text>
+    <text x="45" y="780" class="rune-symbol" fill="#b45309">✦ ᛒ ᚫ ᛞ ✦</text>
+    <text x="45" y="870" class="rune-symbol" fill="#c2410c">◇ DATA ◇</text>
+  </g>
+
+  <!-- ==================== NODE 3: DOCTOR STRANGE TAO MANDALA (Y ≈ 940) ==================== -->
+  <g id="node-3-tao-mandala">
+    <circle cx="45" cy="940" r="42" fill="url(#mandalaGlowLight)" class="pulse-mandala"/>
+
+    <g class="spin-mandala-spokes" filter="url(#intenseGlowL)">
+      <circle cx="45" cy="940" r="36" stroke="#ea580c" stroke-width="1.8" stroke-dasharray="8 6" fill="none"/>
+      <line x1="45" y1="900" x2="45" y2="980" stroke="#d97706" stroke-width="2"/>
+      <line x1="5" y1="940" x2="85" y2="940" stroke="#d97706" stroke-width="2"/>
+      <line x1="17" y1="912" x2="73" y2="968" stroke="#c2410c" stroke-width="1.5"/>
+      <line x1="17" y1="968" x2="73" y2="912" stroke="#c2410c" stroke-width="1.5"/>
+    </g>
+
+    <g class="spin-mandala-squares">
+      <circle cx="45" cy="940" r="27" stroke="#9a3412" stroke-width="1.6" fill="#fff7ed"/>
+      <rect x="26" y="921" width="38" height="38" fill="none" stroke="#ea580c" stroke-width="1.6"/>
+      <rect x="26" y="921" width="38" height="38" fill="none" stroke="#d97706" stroke-width="1.6" transform="rotate(45 45 940)"/>
+    </g>
+
+    <g class="spin-mandala-inner">
+      <circle cx="45" cy="940" r="16" stroke="#c2410c" stroke-width="1.6" stroke-dasharray="3 3" fill="none"/>
+      <polygon points="45,926 56,945 34,945" fill="none" stroke="#b45309" stroke-width="1.4"/>
+      <polygon points="45,954 34,935 56,935" fill="none" stroke="#ea580c" stroke-width="1.4"/>
+    </g>
+
+    <circle cx="45" cy="940" r="6" fill="#f97316"/>
+
+    <rect x="12" y="988" width="66" height="15" rx="7.5" fill="#7c2d12" stroke="#ea580c" stroke-width="1.3"/>
+    <text x="45" y="998.5" class="badge-pill">TAO SHIELD</text>
+  </g>
+
+  <!-- RUNES SEGMENT 3 -> 4 -->
+  <g opacity="0.95">
+    <text x="45" y="1080" class="rune-symbol" fill="#ea580c">✦ ᛗ ᛖ ᛊ ✦</text>
+    <text x="45" y="1180" class="rune-symbol" fill="#7c3aed">◇ CLOUD ◇</text>
+    <text x="45" y="1280" class="rune-symbol" fill="#0284c7">✦ PEAK ✦</text>
+    <text x="45" y="1380" class="rune-symbol" fill="#7c3aed">◇ LOCAL ◇</text>
+    <text x="45" y="1480" class="rune-symbol" fill="#0284c7">✦ APACHE ✦</text>
+  </g>
+
+  <!-- ==================== NODE 4: MIRROR DIMENSION & MULTIVERSE (Y ≈ 1580) ==================== -->
+  <g id="node-4-mirror-dimension">
+    <circle cx="45" cy="1580" r="42" fill="url(#coreLaserLight)" opacity="0.2" class="pulse-mirror"/>
+
+    <g class="spin-mirror-outer">
+      <polygon points="45,1540 74,1552 86,1580 74,1608 45,1620 16,1608 4,1580 16,1552" 
+               fill="#faf5ff" stroke="#7c3aed" stroke-width="2.4"/>
+      <polygon points="45,1548 70,1598 20,1598" fill="none" stroke="#0284c7" stroke-width="1.8"/>
+      <polygon points="45,1612 20,1562 70,1562" fill="none" stroke="#c026d3" stroke-width="1.8"/>
+    </g>
+
+    <g class="spin-mirror-inner">
+      <circle cx="45" cy="1580" r="18" stroke="#0284c7" stroke-width="1.8" stroke-dasharray="6 4" fill="none"/>
+      <circle cx="45" cy="1580" r="12" stroke="#7c3aed" stroke-width="1.5" stroke-dasharray="3 3" fill="none"/>
+    </g>
+
+    <circle cx="45" cy="1580" r="6.5" fill="#a21caf"/>
+    <circle cx="45" cy="1580" r="3" fill="#ffffff"/>
+
+    <rect x="10" y="1630" width="70" height="15" rx="7.5" fill="#581c87" stroke="#7c3aed" stroke-width="1.3"/>
+    <text x="45" y="1640.5" class="badge-pill">MULTIVERSE</text>
+  </g>
+
+  <!-- RUNES SEGMENT 4 -> 5 -->
+  <g opacity="0.95">
+    <text x="45" y="1730" class="rune-symbol" fill="#7c3aed">✦ ᚲ ᛟ ᛞ ✦</text>
+    <text x="45" y="1850" class="rune-symbol" fill="#0284c7">◇ REPO ◇</text>
+    <text x="45" y="1970" class="rune-symbol" fill="#e11d48">✦ COMMITS ✦</text>
+    <text x="45" y="2100" class="rune-symbol" fill="#0284c7">◇ PULL ◇</text>
+  </g>
+
+  <!-- ==================== NODE 5: ASTRAL BEACON & CLOAK OF LEVITATION (Y ≈ 2260) ==================== -->
+  <g id="node-5-astral-beacon">
+    <circle cx="45" cy="2260" r="38" fill="url(#portalGlowLight)" opacity="0.35" class="pulse-astral"/>
+
+    <g class="spin-astral">
+      <polygon points="45,2224 81,2260 45,2296 9,2260" 
+               fill="#f0f9ff" stroke="#0284c7" stroke-width="2.4"/>
+      <polygon points="45,2232 73,2260 45,2288 17,2260" 
+               fill="none" stroke="#e11d48" stroke-width="1.6"/>
+    </g>
+
+    <path d="M18,2260 C26,2250 36,2260 45,2246 C54,2260 64,2250 72,2260" 
+          fill="none" stroke="#be123c" stroke-width="2.5" stroke-linecap="round"/>
+
+    <circle cx="45" cy="2260" r="7.5" fill="#0284c7"/>
+    <circle cx="45" cy="2260" r="3.5" fill="#ffffff"/>
+
+    <rect x="10" y="2306" width="70" height="15" rx="7.5" fill="#0c4a6e" stroke="#0284c7" stroke-width="1.3"/>
+    <text x="45" y="2316.5" class="badge-pill">ASTRAL LINK</text>
+  </g>
+
+  <!-- RUNES SEGMENT 5 -> 6 -->
+  <g opacity="0.95">
+    <text x="45" y="2390" class="rune-symbol" fill="#0284c7">✦ ACTIVITY ✦</text>
+    <text x="45" y="2490" class="rune-symbol" fill="#d97706">◇ RUNTIME ◇</text>
+    <text x="45" y="2590" class="rune-symbol" fill="#059669">✦ SUPREME ✦</text>
+  </g>
+
+  <!-- ==================== TERMINAL NODE 6: SLING RING PORTAL GATEWAY (Y ≈ 2680) ==================== -->
+  <g id="node-6-portal">
+    <circle cx="45" cy="2680" r="38" fill="url(#portalGlowLight)" class="pulse-portal"/>
+
+    <g class="spin-portal-sparks" filter="url(#intenseGlowL)">
+      <circle cx="45" cy="2680" r="28" stroke="#d97706" stroke-width="3.5" stroke-dasharray="12 6 3 6" fill="none"/>
+      <circle cx="73" cy="2680" r="3.5" fill="#b45309"/>
+      <circle cx="17" cy="2680" r="3" fill="#ea580c"/>
+      <circle cx="45" cy="2652" r="3.5" fill="#f59e0b"/>
+      <circle cx="45" cy="2708" r="3" fill="#d97706"/>
+    </g>
+
+    <g class="spin-portal-inner">
+      <circle cx="45" cy="2680" r="21" stroke="#ea580c" stroke-width="2.5" stroke-dasharray="7 8 4 4" fill="#fffbeb"/>
+      <circle cx="63" cy="2670" r="2.2" fill="#d97706"/>
+      <circle cx="27" cy="2690" r="2.2" fill="#c2410c"/>
+    </g>
+
+    <circle cx="45" cy="2680" r="10" fill="#f59e0b"/>
+    <circle cx="45" cy="2680" r="5" fill="#fef3c7"/>
+
+    <rect x="15" y="2720" width="60" height="15" rx="7.5" fill="#78350f" stroke="#b45309" stroke-width="1.3"/>
+    <text x="45" y="2730.5" class="badge-pill">PORTAL</text>
+  </g>
+</svg>

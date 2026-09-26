@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dr-strange-spine-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/dr-strange-spine-light.svg" />
+  <img align="right" src="./assets/dr-strange-spine-dark.svg" alt="Doctor Strange Mystic Arts Rail" width="90" height="auto" />
+</picture>
+
 # Hola 👋, I'm Azhar
 <!--
 **azhar22k/azhar22k** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -221,3 +227,6 @@ I'm a polyglot, ambivert and loves Sci-Fi
 - 🔀 opened PR [#45 in localstack/rolo](https://github.com/localstack/rolo) `(Sep 26)`
 - 🌱 created branch `fix-restore-payload-methods` in [azhar22k/rolo](https://github.com/azhar22k/rolo) `(Sep 26)`
 <!-- END_SECTION:activity -->
+
+<br clear="both"/>
+
