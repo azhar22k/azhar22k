@@ -716,8 +716,7 @@ def generate_svg(stats, theme="dark"):
 def generate_orgs_svg(orgs, theme="dark"):
     """
     Generates a high-quality SVG overview card highlighting:
-      1. Overview Metrics on the left ("Organizations & Open Source", cleanly right-aligned with zero overlap)
-      2. Contributed Organization Tabs on the right (structured 2-column pill badges with zero overflow)
+      Executive overview metrics for Organizations & Open Source contributions.
     """
     is_dark = (theme == "dark")
     bg_color = "#0d1117" if is_dark else "#ffffff"
@@ -725,18 +724,11 @@ def generate_orgs_svg(orgs, theme="dark"):
     title_color = "#58a6ff" if is_dark else "#0969da"
     text_color = "#c9d1d9" if is_dark else "#24292f"
     muted_color = "#8b949e" if is_dark else "#57606a"
-    pill_bg = "#161b22" if is_dark else "#f6f8fa"
-    pill_border = "#30363d" if is_dark else "#d0d7de"
-
-    # Distinct curated accent dot colors for organization pills
-    dot_colors = (
-        ["#58a6ff", "#3fb950", "#bc8cff", "#f0883e", "#2ea043", "#79c0ff", "#d29922", "#f778ba"]
-        if is_dark else
-        ["#0969da", "#1a7f37", "#8250df", "#bc4c00", "#116329", "#0550ae", "#9a6700", "#bf3989"]
-    )
+    tile_bg = "#161b22" if is_dark else "#f6f8fa"
+    tile_border = "#30363d" if is_dark else "#d0d7de"
 
     width = 620
-    height = 200
+    height = 140
 
     total_orgs = len(orgs)
     all_years = set()
@@ -747,83 +739,42 @@ def generate_orgs_svg(orgs, theme="dark"):
     min_year = min(all_years) if all_years else 2019
     max_year = max(all_years) if all_years else 2026
     year_span = f"{min_year} — {max_year}"
+    year_diff = (max_year - min_year + 1) if min_year and max_year else 7
     total_contribs = sum(o.get("total_contributions", 1) for o in orgs)
-
-    col1 = orgs[:4]
-    col2 = orgs[4:8]
-
-    right_items = []
-    y_start = 70
-
-    # Column 1 tabs (x: 315 -> 450)
-    for i, o in enumerate(col1):
-        cy = y_start + (i * 26)
-        c_dot = dot_colors[i % len(dot_colors)]
-        login = o.get("login", "")
-        name = ORGANIZATION_SVG_NAMES.get(login) or o.get("name", "")
-        if len(name) > 13:
-            name = name[:12] + "…"
-        right_items.append(f"""
-        <g transform="translate(315, {cy})">
-          <rect width="135" height="23" rx="5" fill="{pill_bg}" stroke="{pill_border}" stroke-width="1" />
-          <circle cx="11" cy="11.5" r="3.5" fill="{c_dot}" />
-          <text x="22" y="15.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="{text_color}">{name}</text>
-        </g>
-        """)
-
-    # Column 2 tabs (x: 462 -> 597)
-    for i, o in enumerate(col2):
-        cy = y_start + (i * 26)
-        c_dot = dot_colors[(i + 4) % len(dot_colors)]
-        login = o.get("login", "")
-        name = ORGANIZATION_SVG_NAMES.get(login) or o.get("name", "")
-        if len(name) > 13:
-            name = name[:12] + "…"
-        right_items.append(f"""
-        <g transform="translate(462, {cy})">
-          <rect width="135" height="23" rx="5" fill="{pill_bg}" stroke="{pill_border}" stroke-width="1" />
-          <circle cx="11" cy="11.5" r="3.5" fill="{c_dot}" />
-          <text x="22" y="15.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="{text_color}">{name}</text>
-        </g>
-        """)
 
     svg_content = f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .header {{ font: 600 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: {title_color}; }}
     .sub-header {{ font: 400 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: {muted_color}; }}
-    .stat-label {{ font: 400 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: {muted_color}; }}
-    .stat-value {{ font: 600 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: {text_color}; }}
+    .tile-title {{ font: 600 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: {text_color}; }}
+    .tile-sub {{ font: 400 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: {muted_color}; }}
   </style>
   <rect x="0.5" y="0.5" rx="8" width="{width - 1}" height="{height - 1}" fill="{bg_color}" stroke="{border_color}"/>
   
-  <!-- Left: Organizations & Open Source -->
-  <text x="25" y="40" class="header">Organizations &amp; Open Source</text>
+  <!-- Header -->
+  <text x="25" y="36" class="header">Organizations &amp; Open Source</text>
+  <text x="25" y="53" class="sub-header">Multi-year engineering contributions across open-source ecosystems</text>
   
+  <!-- Tile 1: Organizations -->
   <g transform="translate(25, 68)">
-    <text x="0" y="0" class="stat-label">🏢 Organizations:</text>
-    <text x="245" y="0" text-anchor="end" class="stat-value">{total_orgs} Orgs</text>
-    
-    <text x="0" y="26" class="stat-label">📅 Timeline:</text>
-    <text x="245" y="26" text-anchor="end" class="stat-value">{year_span}</text>
-    
-    <text x="0" y="52" class="stat-label">⚡ Contributions:</text>
-    <text x="245" y="52" text-anchor="end" class="stat-value">{total_contribs}+ Contribs</text>
-    
-    <text x="0" y="78" class="stat-label">🌐 Focus Areas:</text>
-    <text x="245" y="78" text-anchor="end" class="stat-value">Cloud &amp; AI</text>
-    
-    <text x="0" y="104" class="stat-label">⭐ Ecosystem:</text>
-    <text x="245" y="104" text-anchor="end" class="stat-value">DevOps &amp; IaC</text>
+    <rect width="180" height="52" rx="6" fill="{tile_bg}" stroke="{tile_border}" stroke-width="1" />
+    <text x="14" y="22" class="tile-title">🏢 {total_orgs} Organizations</text>
+    <text x="14" y="39" class="tile-sub">Active OSS &amp; industry partners</text>
   </g>
 
-  <!-- Divider Line -->
-  <line x1="290" y1="25" x2="290" y2="175" stroke="{border_color}" stroke-width="1" />
+  <!-- Tile 2: Active Timeline -->
+  <g transform="translate(220, 68)">
+    <rect width="180" height="52" rx="6" fill="{tile_bg}" stroke="{tile_border}" stroke-width="1" />
+    <text x="14" y="22" class="tile-title">📅 {year_span}</text>
+    <text x="14" y="39" class="tile-sub">{year_diff}+ years continuous activity</text>
+  </g>
 
-  <!-- Right: Contributed Organization Tabs -->
-  <text x="315" y="40" class="header">Contributed Organizations</text>
-  <text x="315" y="56" class="sub-header">Active community &amp; OSS partners</text>
-  
-  {''.join(right_items)}
+  <!-- Tile 3: Contributions & Focus -->
+  <g transform="translate(415, 68)">
+    <rect width="180" height="52" rx="6" fill="{tile_bg}" stroke="{tile_border}" stroke-width="1" />
+    <text x="14" y="22" class="tile-title">⚡ {total_contribs}+ Activities</text>
+    <text x="14" y="39" class="tile-sub">Cloud • AI • IaC • DevOps</text>
+  </g>
 </svg>"""
     return svg_content
 
