@@ -89,6 +89,131 @@ I'm a polyglot, ambivert and loves Sci-Fi
 
 ---
 
+### 🏢 Organizations Contributed To
+
+<!-- START_SECTION:organizations -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Organizations-8_Open_Source_Orgs-58a6ff?style=for-the-badge&logo=github&logoColor=white" alt="8 Organizations" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Timeline-2019_--_2026-bc8cff?style=for-the-badge&logo=git&logoColor=white" alt="2019 — 2026" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Focus-AI_•_Cloud_•_IaC_•_OSS-3fb950?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Focus Areas" />
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/orgs-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/orgs-light.svg" />
+  <img alt="Organizations Contributed To" src="./assets/orgs-dark.svg" width="100%" />
+</picture>
+
+<br/>
+
+<table width="100%">
+  <tr>
+    <td align="center" width="25%" valign="top">
+      <a href="https://github.com/peak-ai" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/52752607?v=4" width="54" height="54" alt="Peak AI" /><br />
+        <b>Peak AI</b>
+      </a>
+      <br />
+      <sub><code>📅 2019 — 2026</code></sub>
+      <br />
+      <sub><i>Enterprise AI & Cloud Infrastructure</i></sub>
+      <br />
+      <sub><a href="https://github.com/peak-ai/eks-token" target="_blank"><code>eks-token</code></a> • <a href="https://github.com/peak-ai/terraform-modules" target="_blank"><code>terraform-modules</code></a> • <a href="https://github.com/peak-ai/ais-service-discovery-python" target="_blank"><code>ais-service-discovery-python</code></a> <sub>(+6)</sub></sub>
+    </td>
+    <td align="center" width="25%" valign="top">
+      <a href="https://github.com/The-PR-Agent" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/264152072?v=4" width="54" height="54" alt="The PR Agent" /><br />
+        <b>The PR Agent</b>
+      </a>
+      <br />
+      <sub><code>📅 2026</code></sub>
+      <br />
+      <sub><i>AI-Powered Automated PR Code Reviews</i></sub>
+      <br />
+      <sub><a href="https://github.com/The-PR-Agent/pr-agent" target="_blank"><code>pr-agent</code></a></sub>
+    </td>
+    <td align="center" width="25%" valign="top">
+      <a href="https://github.com/localstack" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/28732122?v=4" width="54" height="54" alt="LocalStack" /><br />
+        <b>LocalStack</b>
+      </a>
+      <br />
+      <sub><code>📅 2026</code></sub>
+      <br />
+      <sub><i>Local AWS Cloud Development Platform</i></sub>
+      <br />
+      <sub><a href="https://github.com/localstack/rolo" target="_blank"><code>rolo</code></a> • <a href="https://github.com/localstack/pulumi-local" target="_blank"><code>pulumi-local</code></a></sub>
+    </td>
+    <td align="center" width="25%" valign="top">
+      <a href="https://github.com/aws-cloudformation" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/19900777?v=4" width="54" height="54" alt="AWS CloudFormation" /><br />
+        <b>AWS CloudFormation</b>
+      </a>
+      <br />
+      <sub><code>📅 2022</code></sub>
+      <br />
+      <sub><i>AWS Infrastructure as Code (IaC)</i></sub>
+      <br />
+      <sub><a href="https://github.com/aws-cloudformation/cloudformation-coverage-roadmap" target="_blank"><code>cloudformation-coverage-roadmap</code></a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="25%" valign="top">
+      <a href="https://github.com/camptocamp" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/28109?v=4" width="54" height="54" alt="Camptocamp" /><br />
+        <b>Camptocamp</b>
+      </a>
+      <br />
+      <sub><code>📅 2020 — 2021</code></sub>
+      <br />
+      <sub><i>Open Source DevOps & Terraform State</i></sub>
+      <br />
+      <sub><a href="https://github.com/camptocamp/terraboard" target="_blank"><code>terraboard</code></a></sub>
+    </td>
+    <td align="center" width="25%" valign="top">
+      <a href="https://github.com/apache" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/47359?v=4" width="54" height="54" alt="The Apache Software Foundation" /><br />
+        <b>The Apache Software Foundation</b>
+      </a>
+      <br />
+      <sub><code>📅 2020</code></sub>
+      <br />
+      <sub><i>Open-Source Data Exploration (Superset)</i></sub>
+      <br />
+      <sub><a href="https://github.com/apache/superset" target="_blank"><code>superset</code></a></sub>
+    </td>
+    <td align="center" width="25%" valign="top">
+      <a href="https://github.com/npm" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/6078720?v=4" width="54" height="54" alt="npm" /><br />
+        <b>npm</b>
+      </a>
+      <br />
+      <sub><code>📅 2020</code></sub>
+      <br />
+      <sub><i>JavaScript Package Manager Ecosystem</i></sub>
+      <br />
+      <sub><a href="https://github.com/npm/npm-expansions" target="_blank"><code>npm-expansions</code></a></sub>
+    </td>
+    <td align="center" width="25%" valign="top">
+      <a href="https://github.com/simple-icons" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/29872746?v=4" width="54" height="54" alt="Simple Icons" /><br />
+        <b>Simple Icons</b>
+      </a>
+      <br />
+      <sub><code>📅 2020</code></sub>
+      <br />
+      <sub><i>Developer Tech & Brand SVG Icons</i></sub>
+      <br />
+      <sub><a href="https://github.com/simple-icons/simple-icons" target="_blank"><code>simple-icons</code></a></sub>
+    </td>
+  </tr>
+</table>
+<!-- END_SECTION:organizations -->
+
+---
+
 ### 🐍 Contribution Graph
 
 <picture>
@@ -102,10 +227,10 @@ I'm a polyglot, ambivert and loves Sci-Fi
 ### ⚡ Recent Activity
 
 <!-- START_SECTION:activity -->
-- 🔀 merged PR [#3522 in The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) `(Sep 21)`
-- 🚀 pushed 0 commits to [azhar22k/ourl](https://github.com/azhar22k/ourl) `(Sep 20)`
-- 🌱 created branch `feat/browser-app-and-incognito` in [azhar22k/ourl](https://github.com/azhar22k/ourl) `(Sep 19)`
-- 🔀 merged PR [#41 in azhar22k/ourl](https://github.com/azhar22k/ourl) `(Sep 20)`
-- 🔀 opened PR [#41 in azhar22k/ourl](https://github.com/azhar22k/ourl) `(Sep 20)`
-- 🌱 created branch `refactor/split-into-modules` in [azhar22k/ourl](https://github.com/azhar22k/ourl) `(Sep 20)`
+- 🔀 opened PR [#40 in localstack/pulumi-local](https://github.com/localstack/pulumi-local) `(Sep 26)`
+- 🌱 created branch `fix-pulumi-missing-infinite-loop` in [azhar22k/pulumi-local](https://github.com/azhar22k/pulumi-local) `(Sep 26)`
+- 🍴 forked [localstack/pulumi-local](https://github.com/localstack/pulumi-local) `(Sep 26)`
+- 🔀 opened PR [#45 in localstack/rolo](https://github.com/localstack/rolo) `(Sep 26)`
+- 🌱 created branch `fix-restore-payload-methods` in [azhar22k/rolo](https://github.com/azhar22k/rolo) `(Sep 26)`
+- 🔀 opened PR [#44 in localstack/rolo](https://github.com/localstack/rolo) `(Sep 26)`
 <!-- END_SECTION:activity -->
