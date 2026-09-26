@@ -780,59 +780,38 @@ def generate_orgs_svg(orgs, theme="dark"):
 
 def generate_orgs_markdown(orgs):
     """
-    Generates a fancy, responsive HTML table card grid and picture card
-    showcasing all organizations contributed to over the years.
+    Generates a picture card and an inline row of org avatar links.
+    Uses a <p> of inline <a><img></a> elements instead of a table —
+    GitHub wraps every <table> in <markdown-accessiblity-table> which
+    creates a full-width block that terminates the right-side float.
+    Inline images in a <p> flow correctly beside the spine image.
     """
     picture_banner = """<picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/orgs-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/orgs-light.svg" />
   <img alt="Organizations Contributed To" src="./assets/orgs-dark.svg" width="620" />
-</picture>
+</picture>"""
 
-<br/>"""
+    # Inline org avatars — flows beside right-side spine float
+    orgs_p_lines = ['<p align="left">']
+    for i, org in enumerate(orgs):
+        name = org["name"]
+        url = org["url"]
+        avatar = org["avatar_url"]
+        years_disp = org.get("years_display", "")
+        tagline = org.get("tagline", "")
+        title_text = f"{name} · {years_disp} · {tagline}" if tagline else f"{name} · {years_disp}"
+        # Escape & in title attribute
+        title_text = title_text.replace("&", "&amp;")
+        separator = "&nbsp;" if i < len(orgs) - 1 else ""
+        orgs_p_lines.append(
+            f'  <a href="{url}" target="_blank">'
+            f'<img src="{avatar}" width="54" height="54" alt="{name}" title="{title_text}" /></a>{separator}'
+        )
+    orgs_p_lines.append("</p>")
 
-    # 2. Interactive 4-Column Card Grid Table
-    table_lines = ['<table width="100%">']
-    cols_per_row = 4
-
-    for i in range(0, len(orgs), cols_per_row):
-        chunk = orgs[i:i + cols_per_row]
-        table_lines.append("  <tr>")
-        for org in chunk:
-            name = org["name"]
-            url = org["url"]
-            avatar = org["avatar_url"]
-            years_disp = org["years_display"]
-            tagline = org.get("tagline", "")
-            repos = org.get("repos", [])
-            more_count = org.get("more_repos_count", 0)
-
-            # Build repository chips
-            repo_links = []
-            for r in repos:
-                repo_links.append(f'<a href="{r["url"]}" target="_blank"><code>{r["name"]}</code></a>')
-            repos_html = " • ".join(repo_links)
-            if more_count > 0:
-                repos_html += f" <sub>(+{more_count})</sub>"
-
-            cell = f"""    <td align="center" width="25%" valign="top">
-      <a href="{url}" target="_blank">
-        <img src="{avatar}" width="54" height="54" alt="{name}" /><br />
-        <b>{name}</b>
-      </a>
-      <br />
-      <sub><code>📅 {years_disp}</code></sub>
-      <br />
-      <sub><i>{tagline}</i></sub>
-      <br />
-      <sub>{repos_html}</sub>
-    </td>"""
-            table_lines.append(cell)
-        table_lines.append("  </tr>")
-    table_lines.append("</table>")
-
-    table_content = "\n".join(table_lines)
-    return f"{picture_banner}\n\n{table_content}"
+    orgs_p = "\n".join(orgs_p_lines)
+    return f"{picture_banner}\n\n{orgs_p}"
 
 def update_readme_organizations(readme_path, orgs_markdown):
     """
