@@ -17,11 +17,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
----
 
 ### 🌐 Connect with me
 
-<hr>
 <p align="left">
   <a href="https://www.linkedin.com/in/azhar22k/" target="_blank">
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" alt="LinkedIn" width="22" height="22" />
@@ -48,7 +46,6 @@ Here are some ideas to get you started:
 
 <hr>
 I'm a polyglot, ambivert and loves Sci-Fi
----
 
 - 💬 Ask me about AWS, Terraform, Kubernetes, Superset, B2C, Retail AI, Merchandising
 <hr>
@@ -76,8 +73,6 @@ I'm a polyglot, ambivert and loves Sci-Fi
   </a>
 </p>
 <hr>
-
----
 
 ### 📊 GitHub Overview & Top Languages
 
