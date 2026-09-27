@@ -10,25 +10,53 @@
 
 <p align="left">
   <a href="https://www.linkedin.com/in/azhar22k/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" alt="LinkedIn" width="22" height="22" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/icons/linkedin-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/icons/linkedin-light.svg" />
+      <img src="./assets/icons/linkedin-dark.svg" alt="LinkedIn" width="22" height="22" />
+    </picture>
   </a>&nbsp;&nbsp;
   <a href="https://twitter.com/azhar22k/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" alt="Twitter" width="22" height="22" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/icons/twitter-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/icons/twitter-light.svg" />
+      <img src="./assets/icons/twitter-dark.svg" alt="Twitter" width="22" height="22" />
+    </picture>
   </a>&nbsp;&nbsp;
   <a href="https://stackoverflow.com/users/6426237/azhar22k" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/stackoverflow.svg" alt="Stack Overflow" width="22" height="22" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/icons/stackoverflow-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/icons/stackoverflow-light.svg" />
+      <img src="./assets/icons/stackoverflow-dark.svg" alt="Stack Overflow" width="22" height="22" />
+    </picture>
   </a>&nbsp;&nbsp;
   <a href="https://reddit.com/user/azhar22kz" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/reddit.svg" alt="Reddit" width="22" height="22" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/icons/reddit-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/icons/reddit-light.svg" />
+      <img src="./assets/icons/reddit-dark.svg" alt="Reddit" width="22" height="22" />
+    </picture>
   </a>&nbsp;&nbsp;
   <a href="https://dev.to/azhar22k" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/dev-dot-to.svg" alt="Dev.to" width="22" height="22" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/icons/dev-dot-to-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/icons/dev-dot-to-light.svg" />
+      <img src="./assets/icons/dev-dot-to-dark.svg" alt="Dev.to" width="22" height="22" />
+    </picture>
   </a>&nbsp;&nbsp;
   <a href="https://medium.com/@azhar22k" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/medium.svg" alt="Medium" width="22" height="22" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/icons/medium-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/icons/medium-light.svg" />
+      <img src="./assets/icons/medium-dark.svg" alt="Medium" width="22" height="22" />
+    </picture>
   </a>&nbsp;&nbsp;
   <a href="https://azhar22k.github.io" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/blogger.svg" alt="Blog" width="22" height="22" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/icons/blogger-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/icons/blogger-light.svg" />
+      <img src="./assets/icons/blogger-dark.svg" alt="Blog" width="22" height="22" />
+    </picture>
   </a>
 </p>
 
