@@ -115,6 +115,7 @@ I'm a polyglot, ambivert and loves Sci-Fi
   <a href="https://github.com/peak-ai" target="_blank"><img src="https://avatars.githubusercontent.com/u/52752607?v=4" width="54" height="54" alt="Peak AI" title="Peak AI · 2019 — 2026 · Enterprise AI &amp; Cloud Infrastructure" /></a>&nbsp;
   <a href="https://github.com/The-PR-Agent" target="_blank"><img src="https://avatars.githubusercontent.com/u/264152072?v=4" width="54" height="54" alt="The PR Agent" title="The PR Agent · 2026 · AI-Powered Automated PR Code Reviews" /></a>&nbsp;
   <a href="https://github.com/localstack" target="_blank"><img src="https://avatars.githubusercontent.com/u/28732122?v=4" width="54" height="54" alt="LocalStack" title="LocalStack · 2026 · Local AWS Cloud Development Platform" /></a>&nbsp;
+  <a href="https://github.com/microsoft" target="_blank"><img src="https://avatars.githubusercontent.com/u/6154722?v=4" width="54" height="54" alt="Microsoft" title="Microsoft · 2026 · Open source projects and samples from Microsoft" /></a>&nbsp;
   <a href="https://github.com/peak-platform" target="_blank"><img src="https://avatars.githubusercontent.com/u/97734924?v=4" width="54" height="54" alt="Peak Platform" title="Peak Platform · 2020, 2022 · Open Source Ecosystem" /></a>&nbsp;
   <a href="https://github.com/aws-cloudformation" target="_blank"><img src="https://avatars.githubusercontent.com/u/19900777?v=4" width="54" height="54" alt="AWS CloudFormation" title="AWS CloudFormation · 2022 · AWS Infrastructure as Code (IaC)" /></a>&nbsp;
   <a href="https://github.com/camptocamp" target="_blank"><img src="https://avatars.githubusercontent.com/u/28109?v=4" width="54" height="54" alt="Camptocamp" title="Camptocamp · 2020 — 2021 · Open Source DevOps &amp; Terraform State" /></a>&nbsp;
@@ -140,12 +141,12 @@ I'm a polyglot, ambivert and loves Sci-Fi
 ### ⚡ Recent Activity
 
 <!-- START_SECTION:activity -->
+- 🚀 pushed 0 commits to [azhar22k/hve-core](https://github.com/azhar22k/hve-core) `(Sep 28)`
+- 🔀 opened PR [#3029 in microsoft/hve-core](https://github.com/microsoft/hve-core) `(Sep 27)`
+- 🌱 created branch `docs/workflows-node-deck-discovery` in [azhar22k/hve-core](https://github.com/azhar22k/hve-core) `(Sep 27)`
+- 🍴 forked [microsoft/hve-core](https://github.com/microsoft/hve-core) `(Sep 27)`
+- 🚀 pushed 0 commits to [azhar22k/azhar22k](https://github.com/azhar22k/azhar22k) `(Sep 27)`
 - 🔀 opened PR [#9 in localstack/aws-json-term-matcher](https://github.com/localstack/aws-json-term-matcher) `(Sep 26)`
-- 🌱 created branch `feat/not-exists-comparator` in [azhar22k/aws-json-term-matcher](https://github.com/azhar22k/aws-json-term-matcher) `(Sep 26)`
-- 🍴 forked [localstack/aws-json-term-matcher](https://github.com/localstack/aws-json-term-matcher) `(Sep 26)`
-- 🚀 pushed 0 commits to [azhar22k/azhar22k](https://github.com/azhar22k/azhar22k) `(Sep 26)`
-- 🔀 opened PR [#40 in localstack/pulumi-local](https://github.com/localstack/pulumi-local) `(Sep 26)`
-- 🌱 created branch `fix-pulumi-missing-infinite-loop` in [azhar22k/pulumi-local](https://github.com/azhar22k/pulumi-local) `(Sep 26)`
 <!-- END_SECTION:activity -->
 
 <br clear="both"/>
