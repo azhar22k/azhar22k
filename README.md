@@ -141,12 +141,11 @@ I'm a polyglot, ambivert and loves Sci-Fi
 ### ⚡ Recent Activity
 
 <!-- START_SECTION:activity -->
+- 🚀 pushed 0 commits to [azhar22k/hve-core](https://github.com/azhar22k/hve-core) `(Sep 30)`
+- 🔀 merged PR [#3029 in microsoft/hve-core](https://github.com/microsoft/hve-core) `(Sep 30)`
 - 🔀 merged PR [#44 in localstack/rolo](https://github.com/localstack/rolo) `(Sep 30)`
 - 🔀 merged PR [#45 in localstack/rolo](https://github.com/localstack/rolo) `(Sep 30)`
 - 🚀 pushed 0 commits to [azhar22k/rolo](https://github.com/azhar22k/rolo) `(Sep 29)`
-- 🚀 pushed 0 commits to [azhar22k/hve-core](https://github.com/azhar22k/hve-core) `(Sep 29)`
-- 🔀 merged PR [#9 in localstack/aws-json-term-matcher](https://github.com/localstack/aws-json-term-matcher) `(Sep 29)`
-- 🔀 opened PR [#3029 in microsoft/hve-core](https://github.com/microsoft/hve-core) `(Sep 27)`
 <!-- END_SECTION:activity -->
 
 <br clear="both"/>
